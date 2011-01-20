@@ -140,7 +140,7 @@ public:
 			b.lives--;
 			if(b.lives<0){
 				settextstyle(0,0,2);
-				outtextxy(230,240,"Game Over");
+				outtextxy(230,240,"Game Over. Thank You!!!");
 				getch();
 				displayAbout();
 				exit(0);
